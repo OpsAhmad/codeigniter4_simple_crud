@@ -9,15 +9,24 @@
         
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Edit Product</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-        <form action="/product/update" method="post">
-                <input type="text" name="product_name" value="<?= $product->product_name; ?>">
-                <input type="text" name="product_price" value="<?= $product->product_price; ?>">
-                <input type="hidden" name="product_id" value="<?= $product->product_id; ?>">
-                <button type="submit">Update</button>
-            </form>
+    <div>
+        <h1>Edit DATA</h1>
+    </div>
+    <div class="center">
+        <form action="/product/update" method="post">
+            <input type="text" name="product_name" value="<?= $product->product_name; ?>">
+            <br>
+            <input type="text" name="product_price" value="<?= $product->product_price; ?>">
+            <br>
+            <input type="hidden" name="product_id" value="<?= $product->product_id; ?>">
+            <br>
+            <button type="submit" class="btn">Update</button>
+        </form>
+    </div>
 </body>
 
 </html>

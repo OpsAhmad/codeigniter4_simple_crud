@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  width: 100%;
+}
+h1 {
+  font-family: monospace;
+  margin: 1em auto;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  margin: 0.5em 15px;
+  color: rgb(103, 103, 248);
+  display: inline-block;
+}
+.btn {
+  background: rgb(0, 113, 189);
+  color: #ffff;
+  padding: 1em 0.5em;
+}
+.btn.secondary {
+  background: rgb(77, 77, 77);
+}
+.btn.danger {
+  background: rgb(187, 19, 19);
+}
+table {
+  margin: 0.2em 1em;
+  min-width: 450px;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+div.center {
+  width: 480px;
+  margin: auto;
+}
